@@ -23,6 +23,11 @@ function whileLoop(n){
 
 var arr = [1,2,3,4,5,6];
 
+function maybeTrue() {
+  return Math.random() >= 0.5 // Returns a random number between 0 (inclusive) and 1 (exclusive)
+}
+
+
 function doWhileLoop(arr){
   
   do{
