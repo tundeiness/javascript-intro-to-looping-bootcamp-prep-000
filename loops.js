@@ -34,7 +34,7 @@ function doWhileLoop(arr){
     
     arr.pop();
     
-  } while (arr.length > 0 && maybetrue());
+  } while (arr.length > 0 && maybeTrue());
   
   return arr;
 }
